@@ -39,26 +39,6 @@ Exploração estatística de dados públicos do SINAN sobre arboviroses (dengue,
 
 ---
 
-## Estrutura do Repositório
-exploracao-dados-sinan-arboviroses/
-├─ data/
-│  ├─ raw/          # dados brutos
-│  ├─ interim/      # dados limpos
-│  └─ processed/    # dados com features
-│
-├─ notebooks/
-│  ├─ 01_eda_sinan_arboviroses.ipynb      # exploração estatística
-│  └─ 02_limpeza_transform.ipynb          # limpeza e transformação
-│
-├─ reports/
-│  ├─ figures/      # gráficos exportados
-│  └─ tables/       # tabelas em CSV (casos por UF, idade média, etc.)
-│
-├─ src/             # scripts auxiliares (data, features, viz, utils)
-└─ README.md
-
----
-
 ## Como Executar
 1. Clone o repositório:
    git clone https://github.com/seu-usuario/exploracao-dados-sinan-arboviroses.git
@@ -67,14 +47,6 @@ exploracao-dados-sinan-arboviroses/
    pip install -r requirements.txt
 
 3. Execute os notebooks da pasta notebooks/.
-
----
-
-## Apresentação
-Na apresentação (até 10 minutos), serão destacados:
-- Motivação: importância epidemiológica das arboviroses.  
-- Análises relevantes: estatísticas descritivas, distribuição etária, atraso de notificação, sintomas.  
-- Principais insights: predomínio feminino nas notificações, outliers de idade, atrasos médios de registro e lacunas de preenchimento em algumas variáveis.  
 
 ---
 
