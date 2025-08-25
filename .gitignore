@@ -1,0 +1,26 @@
+@"
+__pycache__/
+*.py[oc]
+*.egg-info
+build/
+dist/
+wheels/
+
+.venv/
+env/
+venv/
+
+.ipynb_checkpoints/
+
+data/raw/*
+data/interim/*
+data/processed/*
+notebooks/data/*
+notebooks/reports/*
+
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!notebooks/data/.gitkeep
+!notebooks/reports/.gitkeep
+"@ | Out-File -Encoding utf8 ".gitignore"
